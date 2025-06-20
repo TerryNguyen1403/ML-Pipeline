@@ -1,0 +1,12 @@
+# Create a virtual environment
+python -m venv env
+
+# Activate venv with CMD
+env\Scripts\activate
+
+# For using Open-meteo API
+pip install openmeteo-requests
+pip install requests-cache retry-requests numpy pandas
+
+# Install scikit-learn library
+pip install -U scikit-learn
