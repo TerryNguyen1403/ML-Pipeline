@@ -74,4 +74,4 @@ daily_data["wind_direction_10m_dominant"] = daily_wind_direction_10m_dominant
 daily_dataframe = pd.DataFrame(data = daily_data)
 
 # Save dataframe
-save_weather_data(daily_dataframe, 'raw_weather_data.csv')
+save_weather_data(daily_dataframe, 'predict/sample_data_for_prediction.csv')
