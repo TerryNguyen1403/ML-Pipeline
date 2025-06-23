@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Access dataframe
-df = pd.read_csv(r'training\transformed_data.csv')
+df = pd.read_csv('data/transformed_data.csv')
 
 # Split into X and y
 X = df.iloc[:, :-1].values
