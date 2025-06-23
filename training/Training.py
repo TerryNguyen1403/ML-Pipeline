@@ -55,3 +55,4 @@ best_model = models[best_model_name]
 best_model.fit(X_train, y_train)
 
 joblib.dump(best_model, 'predict/best_model.pkl')
+joblib.dump(scaler, 'predict/standard_scaler.pkl')
