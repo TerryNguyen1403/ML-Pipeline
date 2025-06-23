@@ -20,9 +20,9 @@ X = df.iloc[:, :-1].values
 y = df.iloc[:, -1].values
 
 # Encoding categorical data
-from sklearn.preprocessing import LabelEncoder
-le = LabelEncoder()
-y = le.fit_transform(y)
+# from sklearn.preprocessing import LabelEncoder
+# le = LabelEncoder()
+# y = le.fit_transform(y)
 
 #Split data into train set and test set
 from sklearn.model_selection import train_test_split
