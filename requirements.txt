@@ -1,6 +1,9 @@
 # For using Open-meteo API
-pip install openmeteo-requests
-pip install requests-cache retry-requests numpy pandas
+openmeteo-requests
+requests-cache
+retry-requests
+numpy
+pandas
 
 # Install scikit-learn library
-pip install -U scikit-learn
+scikit-learn
